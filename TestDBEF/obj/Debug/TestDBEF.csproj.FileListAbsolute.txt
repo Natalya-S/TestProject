@@ -1,0 +1,10 @@
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\TestDBEF.exe.config
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\TestDBEF.exe
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\TestDBEF.pdb
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\EntityFramework.dll
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\EntityFramework.xml
+D:\Projects\Training\TestProject\TestDBEF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Training\TestProject\TestDBEF\obj\Debug\TestDBEF.csprojResolveAssemblyReference.cache
+D:\Projects\Training\TestProject\TestDBEF\obj\Debug\TestDBEF.exe
+D:\Projects\Training\TestProject\TestDBEF\obj\Debug\TestDBEF.pdb
