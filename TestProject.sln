@@ -5,6 +5,15 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDBEF", "TestDBEF\TestDBEF.csproj", "{8BA1A261-7557-4AE0-B6F1-91DDA4A8FF9C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBCommon", "DBCommon", "{AEAFA7BB-3C04-41E4-A099-3DB02354CCEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temp", "Temp", "{54116E6E-44C3-40BC-8E42-8BD85ECDB018}"
+	ProjectSection(SolutionItems) = preProject
+		Temp\SQL_TestQueries.sql = Temp\SQL_TestQueries.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDB", "DBCommon\CreateDB\CreateDB.csproj", "{7B52B1D2-B614-48D6-A0B9-59ED9284838C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +24,15 @@ Global
 		{8BA1A261-7557-4AE0-B6F1-91DDA4A8FF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA1A261-7557-4AE0-B6F1-91DDA4A8FF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA1A261-7557-4AE0-B6F1-91DDA4A8FF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B52B1D2-B614-48D6-A0B9-59ED9284838C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B52B1D2-B614-48D6-A0B9-59ED9284838C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B52B1D2-B614-48D6-A0B9-59ED9284838C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B52B1D2-B614-48D6-A0B9-59ED9284838C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B52B1D2-B614-48D6-A0B9-59ED9284838C} = {AEAFA7BB-3C04-41E4-A099-3DB02354CCEA}
 	EndGlobalSection
 EndGlobal
